@@ -24,9 +24,8 @@ class FamilyDetail extends Component {
 
 function mapStateToProps(state){
 
-	console.log(" State ", state);
 	return{
-		member:state.ActiveMember
+		member:state.activeMember
 	};
 }
 export default connect(mapStateToProps)(FamilyDetail);
